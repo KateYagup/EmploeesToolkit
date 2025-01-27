@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 import { getUsersList } from '../users/users.actions';
 import { usersListSelector } from '../users/users.selectors';
 import { useSelector, useDispatch } from 'react-redux'
-import { decrement, increment } from './counterSlice'
+import { usersListReceived } from './users/usersSlice';
 
 
 const baseUrl = 'https://66a0f8b17053166bcabd894e.mockapi.io/api/workers';
